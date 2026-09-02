@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GymOverloader</string>
+    <string name="title_activity_main">GymOverloader</string>
+    <string name="package_name">com.gymoverloader.app</string>
+    <string name="custom_url_scheme">com.gymoverloader.app</string>
+</resources>
