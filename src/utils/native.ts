@@ -13,9 +13,10 @@ export function isNativePlatform(): boolean {
 export function initNativeApp(onBackPress?: () => boolean): void {
   if (!isNativePlatform()) return;
 
-  // Set dark status bar
+  // Set dark status bar without overlaying webview
   StatusBar.setStyle({ style: Style.Dark }).catch(() => {});
-  StatusBar.setBackgroundColor({ color: '#090a0f' }).catch(() => {});
+  StatusBar.setBackgroundColor({ color: '#000000' }).catch(() => {});
+  StatusBar.setOverlaysWebView({ overlay: false }).catch(() => {});
 
   // Handle hardware back button on Android
   CapApp.addListener('backButton', ({ canGoBack }) => {

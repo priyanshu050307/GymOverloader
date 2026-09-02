@@ -17,7 +17,7 @@ export const Header: React.FC<HeaderProps> = ({ userProfile, currentStreak }) =>
   return (
     <header 
       className="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/80 px-4 pb-3 w-full max-w-md sm:max-w-xl md:max-w-2xl mx-auto flex items-center justify-between shadow-2xs transition-all"
-      style={{ paddingTop: 'calc(env(safe-area-inset-top, 24px) + 10px)' }}
+      style={{ paddingTop: 'calc(env(safe-area-inset-top, 0px) + 12px)' }}
     >
       <div className="flex items-center space-x-2.5">
         <div className="w-8.5 h-8.5 rounded-xl bg-indigo-600 text-white flex items-center justify-center shadow-sm shadow-indigo-600/20 shrink-0">

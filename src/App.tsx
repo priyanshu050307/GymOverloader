@@ -273,7 +273,7 @@ export function App() {
     <div className="min-h-screen bg-slate-50/90 text-slate-900 selection:bg-indigo-600 selection:text-white flex flex-col font-sans">
       <Header userProfile={userProfile} currentStreak={currentStreak} />
 
-      <main className="flex-1 w-full max-w-md sm:max-w-xl md:max-w-2xl mx-auto relative pt-3 px-3.5 sm:px-6">
+      <main className="flex-1 w-full max-w-md sm:max-w-xl md:max-w-2xl mx-auto relative pt-3 px-3.5 sm:px-6 pb-36 sm:pb-40">
         {activeTab === 'home' && (
           <HomeScreen
             userProfile={userProfile}
